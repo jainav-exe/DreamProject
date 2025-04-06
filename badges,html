@@ -1,0 +1,9 @@
+<section class="badges-section">
+  <h2>Earned Badges</h2>
+  <div class="badge-container">
+    <div class="badge">Beginner Explorer</div>
+    <div class="badge">Mission Complete</div>
+    <div class="badge">Code Ninja</div>
+    <div class="badge">Streak Star</div>
+  </div>
+</section>

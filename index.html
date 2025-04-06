@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GalactiCode - Learn to Code with Fun</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="logo.png" />
+</head>
+<body>
+  <div class="main-container">
+    <header class="header">
+      <div class="logo-container">
+        <img src="logo.png" alt="GalactiCode Logo" class="logo" />
+        <div class="site-title">GalactiCode</div>
+      </div>
+      <nav class="nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" id="leaderboard-btn" href="#">Leaderboard</a>
+        <a class="nav-link" id="badges-btn" href="#">Badges</a>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h2>Embark on Your Coding Journey Through the Galaxy!</h2>
+      <button id="start-btn" class="start-btn">Start Mission</button>
+    </section>
+
+    <section class="missions">
+      <div class="card">Mission 1: HTML Basics</div>
+      <div class="card">Mission 2: CSS Styling</div>
+      <div class="card">Mission 3: Layouts and Flexbox</div>
+      <div class="card">Mission 4: Responsive Design</div>
+    </section>
+
+    <section class="editor-section">
+      <h3>Galactic Code Editor</h3>
+      <div class="editor-preview">
+        <textarea id="code-input" placeholder="Type your code here..."></textarea>
+        <iframe id="code-output" class="preview"></iframe>
+      </div>
+      <button id="run-btn">Run Code</button>
+      <button id="complete-btn">Mark as Complete</button>
+      <div id="mission-status"></div>
+    </section>
+
+    <footer class="footer">
+      🚀 Created by You | GalactiCode 2025
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
